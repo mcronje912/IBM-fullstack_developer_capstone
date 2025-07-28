@@ -1,0 +1,19 @@
+[flake8]
+max-line-length = 88
+ignore = E203, W503, E501, F401
+exclude = 
+    .git,
+    __pycache__,
+    build,
+    dist,
+    migrations,
+    node_modules,
+    venv,
+    env,
+    djangoenv,
+    server/frontend,
+    server/djangoenv,
+    .venv,
+    */site-packages/*,
+    */lib/*,
+    */bin/*
